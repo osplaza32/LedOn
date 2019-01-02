@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Led On</string>
+    <string name="registrate">Registrate \n aca</string>
+    <string name="login">inicio de \n sesíon</string>
+    <string name="invitados">Invitados</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="prompt_email">email</string>
+    <string name="prompt_password">Clave</string>
+    <string name="fpw">¿Olvidaste tu contraseña?</string>
+    <string name="go_to_home">GO TO HOME</string>
+    <string name="rut">RUT</string>
+    <string name="name">Nombre</string>
+    <string name="phone">Telefono</string>
+    <string name="nfocos">N° Focos</string>
+    <string name="serial">N° serial del producto</string>
+    <string name="title_activity_control_focos_user">control_focos_user</string>
+    <string name="title_activity_control_focos">control_focos</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_rescue">rescue</string>
+
+
+</resources>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/plantilla_sin_letras"
+    tools:context="com.a0ohm.ledpool.contoler.rescue">
+
+    <LinearLayout
+        android:layout_width="368dp"
+        android:layout_height="551dp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp">
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+
+    <LinearLayout
+        android:id="@+id/email_login_form"
+        android:layout_width="368dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@android:color/white"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="8dp">
+
+
+
+            <EditText
+                android:id="@+id/emailRescue"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/prompt_email"
+                android:inputType="textEmailAddress"
+                android:maxLines="1" />
+
+
+
+
+            <EditText
+                android:id="@+id/rutRescue"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="RUT(xxxxxxx-x)" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Se enviara un mail son su \n clave recuperada"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/Rescues"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:textStyle="bold"
+            android:text="Recuperar"
+
+            />
+
+
+    </LinearLayout>
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
